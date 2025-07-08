@@ -14,7 +14,7 @@ java Main
 ```
 
 ## Using test examples
-- In the `TestExamples` class, you'll find a number of `public` `static` methods prefixed by `example0*`. These methods are example tests you can run from the `main()` method in the `Main` class to test the system's behavior. Run one example at a time.
+- In the `TestExamples` class, you'll find a number of `public` `static` methods prefixed by `example0*`. These methods are example tests you can run from the `main()` method in the `Main` class to test the system's behavior.
 - Below is the expected output for each test
   - `TestExamples.example01_addBooks()` : Books are added sucessfuly and displayed in console ✅
   - `TestExamples.example02_purchaseEBook()` : Book is purchased successfully and sent via email ✅
