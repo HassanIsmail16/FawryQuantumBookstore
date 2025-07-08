@@ -16,14 +16,14 @@ java Main
 ## Using test examples
 - In the `TestExamples` class, you'll find a number of `public` `static` methods prefixed by `example0*`. These methods are example tests you can run from the `main()` method in the `Main` class to test the system's behavior. Run one example at a time.
 - Below is the expected output for each test
-  - `TestExamples.example01_addBooks()` : Books are added sucessfuly and displayed in console
-  - `TestExamples.example02_purchaseEBook()` : Book is purchased successfully and sent via email
-  - `TestExamples.example03_purchasePaperBook()` : Book is purchased sucessfully and shipped to address
-  - `TestExamples.example04_purchaseDemoBook()` : Book must be sellable error. (Demo books cannot be purchased)
-  - `TestExamples.example05_invalidQuantity()` : Inventory item creation error. (Quantity cannot be negative)
-  - `TestExamples.example06_invalidPrice()` : Book creation error. (Price has to be a positive number)
-  - `TestExamples.example07_nonExistentBook()` : Inventory error. (No book was found with provided ISBN)
-  - `TestExamples.example08_removeOutdatedBooks()` : Outdated books are removed and updated inventory is displayed.
-  - `TestExamples.example08_buyRemovedOutdatedBook()` : Outdated books are removed and purchase fails because book is non-existent.
-  - `TestExamples.example08_outOfStock()` : Purchase error, insufficient stock.
+  - `TestExamples.example01_addBooks()` : Books are added sucessfuly and displayed in console ✅
+  - `TestExamples.example02_purchaseEBook()` : Book is purchased successfully and sent via email ✅
+  - `TestExamples.example03_purchasePaperBook()` : Book is purchased sucessfully and shipped to address ✅
+  - `TestExamples.example04_purchaseDemoBook()` : Book must be sellable error. (Demo books cannot be purchased) ❌
+  - `TestExamples.example05_invalidQuantity()` : Inventory item creation error. (Quantity cannot be negative) ❌
+  - `TestExamples.example06_invalidPrice()` : Book creation error. (Price has to be a positive number) ❌
+  - `TestExamples.example07_nonExistentBook()` : Inventory error. (No book was found with provided ISBN) ❌
+  - `TestExamples.example08_removeOutdatedBooks()` : Outdated books are removed and updated inventory is displayed. ✅
+  - `TestExamples.example08_buyRemovedOutdatedBook()` : Outdated books are removed and purchase fails because book is non-existent. ❌
+  - `TestExamples.example08_outOfStock()` : Purchase error, insufficient stock. ❌
 
