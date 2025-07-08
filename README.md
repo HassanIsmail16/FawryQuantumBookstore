@@ -1,4 +1,3 @@
-# FawryQuantumBookstore
 This is my solution to the Quantum Bookstore challenge task for the Fawry Internship. 
 
 ## Project overview
@@ -26,4 +25,37 @@ java Main
   - `TestExamples.example08_removeOutdatedBooks()` : Outdated books are removed and updated inventory is displayed. ✅
   - `TestExamples.example08_buyRemovedOutdatedBook()` : Outdated books are removed and purchase fails because book is non-existent. ❌
   - `TestExamples.example08_outOfStock()` : Purchase error, insufficient stock. ❌
+ 
+## Screenshots of th running up
+### Example 01 - Adding Books
+![image](https://github.com/user-attachments/assets/b6d10be8-c20d-499f-a75b-44dcd18d774e)
+
+### Example 02 - Purchasing an E-Book
+![image](https://github.com/user-attachments/assets/19aa51c2-f53f-4642-a904-e3a19542d43f)
+
+### Example 03 - Purchasing a Paper Book
+![image](https://github.com/user-attachments/assets/a8036784-ccf9-47e8-bd0c-9c2e49fe4f66)
+
+### Example 04 - Purchasing a Demo Book
+![image](https://github.com/user-attachments/assets/f9b2fab1-ef10-4ec1-a745-fcca03afba9a)
+
+### Example 05 - Invalid Quantity
+![image](https://github.com/user-attachments/assets/2a2b5232-23a5-4691-bc90-95c21b8ba454)
+
+### Example 06 - Invalid Price
+![image](https://github.com/user-attachments/assets/cc6efeb6-09af-4733-bdcd-13398f42b6e9)
+
+### Example 07 - Non-Existent Book
+![image](https://github.com/user-attachments/assets/2aefb9d6-32e1-47ee-aff1-ccaf23a8f03b)
+
+### Example 08 - Removing Outedated Books
+![image](https://github.com/user-attachments/assets/454fb1af-32e5-45bd-ac1e-d18b7baa5d05)
+
+### Example 09 - Buying Removed Outdated Books
+![image](https://github.com/user-attachments/assets/9d3bb36d-1890-446c-927f-021bda9e580c)
+
+### Example 10 - Out Of Stock
+![image](https://github.com/user-attachments/assets/b4f4cf1d-c1cf-43b6-b815-1f050c179ea7)
+
+
 
